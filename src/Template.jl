@@ -2,6 +2,8 @@ module Template
 
 f() = 1
 
-export f
+g() = 2
+
+export f, g
 
 end # module Template
