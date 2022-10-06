@@ -2,7 +2,7 @@ module Template
 
 f() = 1
 
-g() = 2
+g() = 3
 
 export f, g
 
