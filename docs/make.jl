@@ -16,6 +16,6 @@ makedocs(
 )
 
 deploydocs(
-    repo="github.com/mforets/Template.git",
+    repo="github.com/mforets/Template.jl.git",
     push_preview=true
 )
