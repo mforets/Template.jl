@@ -21,10 +21,6 @@ jobs:
           - windows-latest
         arch:
           - x64
-        include:
-          - version: '1.0'  # test on oldest supported version
-            arch: x64
-            os: ubuntu-latest
     env:
       JULIA_PKG_SERVER: ''
     steps:
